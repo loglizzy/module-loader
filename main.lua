@@ -108,7 +108,7 @@ function new(name)
 			if type(f) == 'string' then
 				local res = game:HttpGet(f)
 				TextLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
-				return res
+				return loadstring(res)
 			end
 			f()
 			TextLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
