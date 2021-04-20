@@ -11,5 +11,5 @@ local modules = loader('shitty gui loader')({
 })
 
 UILibrary:CreateShitGui()
-print(Modules.Aimbot)
+Modules.Aimbot.Start()
 ```
