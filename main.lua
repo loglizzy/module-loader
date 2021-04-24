@@ -1,4 +1,12 @@
 function new(name)
+	local blur = Instance.new('BlurEffect')
+	blur.Size = 0
+	blur.Parent = game:GetService('Workspace')
+	
+	while blur.Size < 17 and wait() do
+		blue.Size = blur.Size + 1
+	end
+	
 	local ScreenGui = Instance.new("ScreenGui")
 	local Frame = Instance.new("Frame")
 	local Frame_2 = Instance.new("Frame")
